@@ -1,0 +1,34 @@
+
+.board {
+    border: 1px orange solid;
+    height: 320px;
+    width: 320px;
+    padding: 0px; 
+}
+
+.row {
+    display: block;
+    box-sizing: border-box;
+    width: 320px;
+    height: 20px;
+    background-color: white;
+    /* border: 1px black solid; */
+}
+
+.column{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    /* border: 1px black solid; */
+
+}
+
+.activated{
+    background-color: black;
+}
+
+
+
+
